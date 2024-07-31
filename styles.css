@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #161414;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#navbar li {
+    float: inline-start;
+    display: transparent;
+}
+
+#navbar li a {
+    display: block;
+    color: rgb(249, 248, 248);
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #6e6b6b; /* Darker background on hover */
+}
+
+.section {
+    padding-top: 0px; /* Ensures content starts below the fixed header */
+    height: 100vh; /* Full viewport height for each section */
+    text-align: center;
+    background-color: #dfe8e6;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRqiCThUbejDbopmw8kFWScA9UYB9XJgBrsD99ggigtcgwHGUMNCrvGc1PmrNQd_90a4&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1.5px solid #0f0808; /* Separator between sections */
+}
+
+.section h2 {
+    padding-top: 50px;
+    background-color: rgb(248, 252, 252);
+}
